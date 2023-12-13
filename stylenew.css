@@ -755,7 +755,6 @@ footer {
         width: 70%;
         margin: 0 auto;
         margin-top: 7vh;
-        height: auto;
         margin-bottom: 7vh;
     }
 
@@ -771,13 +770,13 @@ footer {
     }
 
     #title-descrip {
-        font-size: 2vw;
+        font-size: 4vw;
         line-height: 2.222vh;
-        margin-top: 0;
+        margin-top: 4vh;
     }
 
     #title-readmore {
-        font-size: 2vw;
+        font-size: 3vw;
         margin-top: 2vh;
     }
 
@@ -786,26 +785,29 @@ footer {
     }
 
     #our-firm {
-        height: auto;
+        display: flex-block;
+        max-height: auto;
+        margin: 7vh 0;
     }
 
     #about-firm {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        max-height: 90%;
     }
 
     #about-name {
-        width: 20%;
-        font-size: 4vw;
+        width: 30%;
+        font-size: 5vw;
         display: flex;
     }
 
     #about-text {
-        font-size: 2.2vw;
+        font-size: 3vw;
         display: flex;
         margin-top: 2vh;
         line-height: 2vh;
@@ -813,15 +815,15 @@ footer {
 
     #senior {
         margin-top: 2vh;
-        width: 80%;
+        width: 100%;
     }
 
     #Stephen {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     #Senior {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 
     #reeding-block {
@@ -833,13 +835,13 @@ footer {
     }
 
     #reeding-name, #reeding-text {
-        font-size: 5vw;
+        font-size: 6vw;
         text-align: center;
         margin-bottom: 5vw;
     }
 
     #reeding-text {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     #ourprocess-block {
@@ -847,7 +849,7 @@ footer {
         justify-content: center;
         align-items: center;
         height: 35vh;
-        margin: 0;
+        margin: 9vh 0;
     }
 
     #our-process {
@@ -861,12 +863,12 @@ footer {
 
     #our-name {
         width: 100%;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     #our-text{
         width: 100%;
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     #process-block {
@@ -887,13 +889,13 @@ footer {
     }
 
     .name {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .text {
         width: 100%;
-        font-size: 1.5vw;
-        line-height: 1vh;
+        font-size: 2.8vw;
+        line-height: 2vh;
         
     }
 
@@ -906,13 +908,13 @@ footer {
     }
 
     #swir-name, #swir-text {
-        font-size: 5vw;
+        font-size: 6vw;
         text-align: center;
         margin-bottom: 5vw;
     }
 
     #swir-text {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     #feat-proj {
@@ -933,13 +935,13 @@ footer {
     #feat-name {
         padding-top: 5vh;
         width: 90%;
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     #feat-text {
         width: 90%;
         margin: 0;
-        font-size: 2vw;
+        font-size: 3vw;
         line-height: 2vh;
         margin-bottom: 2vh;
     }
@@ -952,7 +954,7 @@ footer {
     }
 
     .img {
-        width: 35%;
+        width: 30%;
         height: 20vh;
     }
 
@@ -961,23 +963,23 @@ footer {
     }
 
     .img-name {
-        font-size: 1vw;
+        font-size: 2vw;
         height: 1vh;
     }
 
     .img-town {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .feat-readmore {
-        margin-top: 10vh;
+        margin-top: 7vh;
         margin-left: 2vw;
-        height: 2vh;
-        width: 40%;
+        height: 3vh;
+        width: 60%;
     }
 
     .readmore-but-name {
-        font-size: 1vw;
+        font-size: 2vw;
     }
 
     #view-all {
@@ -987,16 +989,21 @@ footer {
     }
 
     #view-text {
-        font-size: 2vw;
+        font-size: 3vw;
         width: 100%;
+    }
+
+    #our-team {
+        margin: 10vh 0;
     }
 
     #team-block {
         flex-direction: column;
+        width: 80%;
     }
 
     #team-text {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
         margin-top: 5vh;
@@ -1008,15 +1015,16 @@ footer {
     }
 
     #team-name {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     #team-descr {
-        font-size: 2.2vw;
+        width: 100%;
+        font-size: 3.2vw;
     }
 
     #team-but-name {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 
     #members {
@@ -1039,12 +1047,12 @@ footer {
     }
 
     .memb-name {
-        font-size: 3vw;
+        font-size: 4vw;
         line-height: 2vh;
     }
 
     .memb-job {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     #get-big {
@@ -1054,8 +1062,8 @@ footer {
     }
 
     #get-text1 {
-        font-size: 2vw;
-        width: auto;
+        font-size: 3vw;
+        width: 70%;
     }
 
     #get-text2 {
